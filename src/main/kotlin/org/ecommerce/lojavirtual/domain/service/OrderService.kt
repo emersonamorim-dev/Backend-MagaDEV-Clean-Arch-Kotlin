@@ -18,10 +18,10 @@ class OrderService(
 ) {
 
     fun save(event: OrderCreatedEvent): OrderEntity {
-        // Gerar um UUID único para cada novo pedido.
+        // Gera um UUID único para cada novo pedido.
         val newOrderId = UUID.randomUUID()
 
-        // Criar um novo pedido com o UUID gerado.
+        // Cria um novo pedido com o UUID gerado.
         val order = OrderEntity(
             id = newOrderId, // O ID do pedido é gerado automaticamente aqui.
             customerId = event.customerId,
@@ -30,7 +30,7 @@ class OrderService(
             status = event.status
         )
 
-        // Salvar o novo pedido no banco de dados.
+        // Salva o novo pedido no banco de dados.
         return orderRepository.save(order)
     }
 
