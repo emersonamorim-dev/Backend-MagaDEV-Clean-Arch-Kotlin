@@ -1,4 +1,4 @@
-## Backend-MagaDEV - LojaVirtual Application 🚀 🔄 🌐
+## Backend-MagaDEV-Kotlin - LojaVirtual Application 🚀 🔄 🌐
 Codificação de Backend MagaDev para E-commerce completo em Kotlin com banco de dados Postgres, RabbitMQ e Swagger para documentar ApiREST da
 LojaVirtual é uma plataforma de e-commerce desenvolvida com Kotlin, Spring Boot, Hibernate, PostgreSQL 
 e RabbitMQ. Esta aplicação foi projetada para gerenciar listagens de produtos, usuários, marcas, estados, categorias, clientes, pedidos e 
